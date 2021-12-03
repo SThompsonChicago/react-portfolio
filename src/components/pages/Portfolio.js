@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from './Card'
 
 export default function Portfolio() {
     return (
@@ -7,9 +8,7 @@ export default function Portfolio() {
                 <p className="title">
                     Portfolio
                 </p>
-                <p classname="subtitle">
-                    ..
-                </p>
+                <Card />
             </div>
         </div>
     );

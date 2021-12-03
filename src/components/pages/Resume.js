@@ -8,7 +8,9 @@ export default function Resume() {
                     Resume
                 </p>
                 <p classname="subtitle">
-                    Please email me at s31@umbc.edu.
+                    A link to my resume can be found <a href="https://sthompsonchicago.github.io/My_portfolio/assets/ThompsonResume.pdf" className="btn btn-primary">
+                    here. 
+                </a>
                 </p>
             </div>
         </div>
