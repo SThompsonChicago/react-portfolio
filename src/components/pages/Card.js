@@ -6,15 +6,18 @@ export default function Card() {
     };
 
     return (
-        <div>
+        <div className="box">
             <div className="card" style={cardStyle}>
+                <card className="content">
+                    <h1 className="card-title">Book Talk</h1>
+                    </card>
             <img
                 className="card-img-top"
                 src={`https://sthompsonchicago.github.io/My_portfolio/assets/bookTalkPic.png`}
                 alt="App image"
             />
             <div className="card-body">
-                <h5 className="card-title">Book Talk</h5>
+                
                 <p className="card-text">Blah blah</p>
                 <a href="https://book-club-chicago.herokuapp.com" className="btn btn-primary">
                     Link to deployed application.
