@@ -2,6 +2,7 @@ import React from 'react';
 
 function Footer () {
     return (
+        <div className="notification is-black">
         <footer className="footer notification is-link">
             <div className="content has-text-centered">
                 <p>
@@ -9,7 +10,7 @@ function Footer () {
                 </p>
             </div>
 
-        </footer>
+        </footer></div>
     );
 }
 
