@@ -13,7 +13,11 @@ export default function Contact() {
 
 
                 <div className="content">
-                    Please <a href="mailto:s31@umbc.edu">email</a> me. 
+                    To get in touch, please <a href="mailto:s31@umbc.edu">email</a> me. 
+                    </div>
+
+                    <div className="content">
+                    You can also connect with me on <a href="https://github.com/SThompsonChicago">GitHub</a>, <a href="https://www.linkedin.com/in/stephen-thompson-77511174/">LinkedIn</a> or <a href="https://www.researchgate.net/profile/Stephen-Thompson-15">ResearchGate</a>.
                     </div>
             </div>
             
