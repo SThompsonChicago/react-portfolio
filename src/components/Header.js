@@ -6,7 +6,10 @@ const styles = {
   },
   right: {
     float: "right",
-  }
+  },
+  space: {
+    margin:"5px",
+  },
 }
 
 function Header({currentPage, handlePageChange }) {
@@ -17,11 +20,25 @@ function Header({currentPage, handlePageChange }) {
             <header className="navbar" style={styles.right}>
 
 <a className="button is-black"
-
+  style={styles.space}
     href="#home"
     onClick={() => handlePageChange('Home')}
     >
       <span>Home</span>
+    </a>
+    <a className="button is-black"
+    style={styles.space}
+    href="#portfolio"
+    onClick={() => handlePageChange('Portfolio')}
+    >
+      <span>Portfolio</span>
+    </a>
+    <a className="button is-black"
+    style={styles.space}
+    href="#contact"
+    onClick={() => handlePageChange('Contact')}
+    >
+      <span>Contact</span>
     </a>
 
 </header>

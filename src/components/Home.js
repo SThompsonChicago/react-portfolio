@@ -19,14 +19,27 @@ export default function Home({currentPage, handlePageChange }) {
         <section className="hero notification is-link">
         <div className="hero-head">
     <header className="navbar" style={styles.right}>
-
-          <a className="button is-black"
-          
-              href="#port"
-              >
-                <span>Menu</span>
-              </a>
-
+    <a className="button is-black"
+    style={styles.space}
+    href="#home"
+    onClick={() => handlePageChange('Home')}
+    >
+      <span>Home</span>
+    </a>
+    <a className="button is-black"
+    style={styles.space}
+    href="#portfolio"
+    onClick={() => handlePageChange('Portfolio')}
+    >
+      <span>Portfolio</span>
+    </a>
+    <a className="button is-black"
+    style={styles.space}
+    href="#contact"
+    onClick={() => handlePageChange('Contact')}
+    >
+      <span>Contact</span>
+    </a>
     </header>
   </div>
             <div className="hero-body">
