@@ -50,6 +50,14 @@ export default function Home({currentPage, handlePageChange }) {
             </span>
             <span className="navbar-item">
               <a className="button is-black"
+              href="#publications"
+              onClick={() => handlePageChange('Publications')}
+              >
+                <span>Publications</span>
+              </a>
+            </span>
+            <span className="navbar-item">
+              <a className="button is-black"
               href="#contact"
               onClick={() => handlePageChange('Contact')}
               >

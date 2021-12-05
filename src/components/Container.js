@@ -5,6 +5,7 @@ import About from './pages/About';
 import Home from './Home';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Publications from './pages/Publications'
 import Contact from './pages/Contact';
 
 export default function Container () {
@@ -22,6 +23,9 @@ export default function Container () {
         }
         if (currentPage === 'Resume') {
             return <Resume />
+        }
+        if (currentPage === 'Publications') {
+            return <Publications />
         }
         return <Contact />
     };
