@@ -7,7 +7,7 @@ export default function Portfolio() {
 
             <div className="card-content notification is-black">
             <p className="title is-4">
-                            A few of my web apps
+                            Portfolio
                         </p>
 
 
@@ -29,8 +29,8 @@ export default function Portfolio() {
     <div className="content">
     <p className="title is-4">Book Talk</p>
     <p>This is a full stack web application that allows users upload and share book 
-                              reviews with friends online, 
-                              to make reading a more interactive and social experience.  
+                              reviews with friends online. 
+                              The aim is to make reading a more interactive and social experience.  
     </p>
     <ul>
 
@@ -110,7 +110,7 @@ export default function Portfolio() {
 <div className="column">
     <div className="content">
     <p className="title is-4">Blog</p>
-    <p>This is a simple blog that allows a user to create an account and write blog posts. It is a full-stack application using Express, Handlebars, MySQL, node and more.
+    <p>This is a simple blog that allows a user to create an account, write blog posts and view posts by others. It is a full-stack application using Express, Handlebars, MySQL, node and more.
     </p>
     <ul>
   

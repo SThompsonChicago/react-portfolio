@@ -1,19 +1,31 @@
 import React from 'react';
 
-function Footer () {
+const styles = {
+    space: {
+        margin:"5px",
+    },
+    top: {
+        borderTop:"0px",
+    },
+    arr: {
+      cursor: 'default',
+    },
+    center: {
+        float: "center",
+      }
+  }
+
+function Footer ({currentPage, handlePageChange }) {
     return (
         <div className="notification is-black">
-        <footer className="footer notification is-link">
-            <div className="content has-text-centered">
-                <p>
-                    <a href="mailto:s31@umbc.edu">Email</a>     <a href="https://www.linkedin.com/in/stephen-thompson-77511174/">LinkedIn</a>     <a href="https://github.com/SThompsonChicago">GitHub</a>
-                </p>
-                <p>
-                    This page was created with ReactJS. 
-                </p>
-            </div>
+        <footer className="footer notification is-link has-text-centered">
+            <div className="button is-black" style={styles.arr}>
+              <p>Created with ReactJS. </p>
+              </div>
+         
 
-        </footer></div>
+        </footer>
+        </div>
     );
 }
 

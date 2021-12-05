@@ -3,6 +3,9 @@ import React from 'react';
 const styles = {
   hov: {
     cursor: 'pointer',
+  },
+  right: {
+    float: "right",
   }
 }
 
@@ -11,62 +14,17 @@ function Header({currentPage, handlePageChange }) {
         <div>
         <section className="hero notification is-link">
             <div className="hero-head">
-    <header className="navbar">
-      <div className="container">
-        <div id="navbarMenuHeroC" className="navbar-menu">
-          <div className="navbar-end">
-          <span className="navbar-item">
-          <a className="button is-black"
-              href="#home"
-              onClick={() => handlePageChange('Home')}
-              >
-                <span>Home</span>
-              </a>
-            </span>
-          <span className="navbar-item">
-          <a className="button is-black"
-              href="#about"
-              onClick={() => handlePageChange('About')}
-              >
-                <span>About</span>
-              </a>
-            </span>
-            <span className="navbar-item">
-              <a className="button is-black"
-              href="#portfolio"
-              onClick={() => handlePageChange('Portfolio')}
-              >
-                <span>Portfolio</span>
-              </a>
-            </span>
-            <span className="navbar-item">
-              <a className="button is-black"
-              href="#resume"
-              onClick={() => handlePageChange('Resume')}
-              >
-                <span>Resume</span>
-              </a>
-            </span>
-            <span className="navbar-item">
-              <a className="button is-black"
-              href="#publications"
-              onClick={() => handlePageChange('Publications')}
-              >
-                <span>Publications</span>
-              </a>
-            </span>
-            <span className="navbar-item">
-              <a className="button is-black"
-              href="#contact"
-              onClick={() => handlePageChange('Contact')}
-              >
-                <span>Contact</span>
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </header>
+            <header className="navbar" style={styles.right}>
+
+<a className="button is-black"
+
+    href="#home"
+    onClick={() => handlePageChange('Home')}
+    >
+      <span>Home</span>
+    </a>
+
+</header>
   </div>
             <div className="hero-body">
                 <article className="media">

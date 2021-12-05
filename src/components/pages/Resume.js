@@ -6,7 +6,7 @@ export default function Resume() {
         <div className="card">
             <div className="card-content notification is-black">
             <p className="title is-4">
-                            About me
+                            Resume
                         </p>
                 <p classname="subtitle">
                     A pdf version of my resume can be found <a href="https://sthompsonchicago.github.io/My_portfolio/assets/ThompsonResume.pdf" className="btn btn-primary">
