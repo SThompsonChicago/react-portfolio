@@ -8,6 +8,9 @@ function Footer () {
                 <p>
                     <a href="mailto:s31@umbc.edu">Email</a>     <a href="https://www.linkedin.com/in/stephen-thompson-77511174/">LinkedIn</a>     <a href="https://github.com/SThompsonChicago">GitHub</a>
                 </p>
+                <p>
+                    This page was created with ReactJS. 
+                </p>
             </div>
 
         </footer></div>

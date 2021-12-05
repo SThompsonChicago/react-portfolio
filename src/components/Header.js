@@ -57,7 +57,7 @@ function Header({currentPage, handlePageChange }) {
             <div className="hero-body">
                 <article className="media">
                     <div className="media-left">
-                    <figure class="image is-64x64">
+                    <figure className="image is-64x64">
         <img src="https://sthompsonchicago.github.io/My_portfolio/assets/Me.png" alt="Image" className="is-rounded"/>
       </figure>                
       </div>
@@ -66,7 +66,7 @@ function Header({currentPage, handlePageChange }) {
                     Stephen Thompson
                 </p>
                 <p className="subtitle">
-                    Web Developer and Mathematician
+                    Web developer and mathematician
                 </p>
 </div>
                 </article>

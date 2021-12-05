@@ -1,10 +1,10 @@
 import React from 'react';
 
 const styles = {
-  a: {
-    textDocaration: 'none',
-  },
-};
+  hov: {
+    cursor: 'pointer',
+  }
+}
 
 export default function Home({currentPage, handlePageChange }) {
     return (
@@ -64,7 +64,7 @@ export default function Home({currentPage, handlePageChange }) {
             <div className="hero-body">
                 <article className="media">
                     <div className="media-left">
-                    <figure class="image is-64x64">
+                    <figure className="image is-64x64">
         <img src="https://sthompsonchicago.github.io/My_portfolio/assets/Me.png" alt="Image" className="is-rounded"/>
       </figure>                
       </div>
@@ -73,7 +73,7 @@ export default function Home({currentPage, handlePageChange }) {
                     Stephen Thompson
                 </p>
                 <p className="subtitle">
-                    Web Developer and Mathematician
+                    Web developer and mathematician
                 </p>
 </div>
                 </article>
@@ -88,14 +88,14 @@ export default function Home({currentPage, handlePageChange }) {
                 
 
     <article className="tile is-child notification is-primary"
+    style={styles.hov}
     href="#portfolio"
     onClick={() => handlePageChange('Portfolio')}
-    style={styles.a}
     >
       <div className="content">
 
         <p className="title">Portfolio</p>
-        <p> Click to view web apps I've created. Including pictures, links to GitHub repositories and links to deployed applications.</p>
+        <p> Click to view web apps I've created (includes pictures, links to GitHub repositories and links to deployed applications).</p>
 
           <div className="content">
         </div>
@@ -106,14 +106,16 @@ export default function Home({currentPage, handlePageChange }) {
   <div className="tile is-vertical is-8">
     <div className="tile">
       <div className="tile is-parent is-vertical">
-        <article className="tile is-child notification is-white"
+        <article className="tile is-child notification is-warning"
+        style={styles.hov}
         href="#about"
         onClick={() => handlePageChange('About')}
         >
-        <p className="title">About me</p>
+        <p className="title">About</p>
         <p> Click to read a brief bio and overview of my skills.</p>
         </article>
-        <article className="tile is-child notification is-warning"
+        <article className="tile is-child notification is-link"
+        style={styles.hov}
         href="#contact"
         onClick={() => handlePageChange('Contact')}
         >
@@ -122,7 +124,8 @@ export default function Home({currentPage, handlePageChange }) {
         </article>
       </div>
       <div className="tile is-parent">
-        <article className="tile is-child notification is-link"
+        <article className="tile is-child notification is-danger"
+        style={styles.hov}
         href="#resume"
         onClick={() => handlePageChange('Resume')}
         >
@@ -133,13 +136,14 @@ export default function Home({currentPage, handlePageChange }) {
       </div>
     </div>
     <div className="tile is-parent">
-      <article className="tile is-child notification is-danger"
+      <article className="tile is-child notification is-white"
+      style={styles.hov}
                     href="#publications"
                     onClick={() => handlePageChange('Publications')}
       >
 
         <p className="title">Publications</p>
-        <p> Click for links to my publications in mathematics and economics journals.</p>
+        <p> Click for links to my publications in scientific journals.</p>
 
         <div className="content">
           
