@@ -72,7 +72,11 @@ export default function Home({currentPage, handlePageChange }) {
             <div className="hero-body">
                 <article className="media">
                     <div className="media-left">
-                    <figure className="image is-64x64">
+                    <figure className="image is-64x64"
+                    style={styles.hov}
+                    href="#home"
+                    onClick={() => handlePageChange('Home')}
+                    >
         <img src="https://sthompsonchicago.github.io/My_portfolio/assets/Me.png" alt="Image" className="is-rounded"/>
       </figure>                
       </div>
