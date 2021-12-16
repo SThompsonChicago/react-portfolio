@@ -10,7 +10,7 @@ export default function Publications() {
                         </p>
 
                         <p>
-                        Thompson, S. 2020. “'The total movement of this disorder is its order': Investment and utilization dynamics in long-run disequilibrium.” <i>Under review</i>. <a href="https://www.researchgate.net/publication/345629218_The_total_movement_of_this_disorder_is_its_order_Investment_and_utilization_dynamics_in_long-run_disequilibrium">Link</a>.
+                        Thompson, S. 2020. “'The total movement of this disorder is its order': Investment and utilization dynamics in long-run disequilibrium.” <i>Accepted for publication.</i>. <a href="https://www.researchgate.net/publication/345629218_The_total_movement_of_this_disorder_is_its_order_Investment_and_utilization_dynamics_in_long-run_disequilibrium">Link</a>.
 </p>
 <br/>
 <p>
